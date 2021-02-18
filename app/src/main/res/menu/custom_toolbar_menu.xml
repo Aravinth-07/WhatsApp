@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/Search"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_newgroup"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/newgroup"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_newbroadcast"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/newbroadcast"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_whatsappWeb"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/whatsappWeb"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_starredMessages"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/starredMessage"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_payments"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/payments"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+
+
+</menu>

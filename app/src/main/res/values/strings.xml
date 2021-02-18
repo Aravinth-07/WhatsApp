@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="Search">Search</string>
+    <string name="newgroup">New Group</string>
+    <string name="newbroadcast">New Broadcast</string>
+    <string name="whatsappWeb">WhatsApp Web</string>
+    <string name="starredMessage">Starred Messages</string>
+    <string name="payments">Payments</string>
+    <string name="settings">Settings</string>
+    <string name="chats">CHATS</string>
+    <string name="status">STATUS</string>
+    <string name="calls">CALLS</string>
+</resources>
