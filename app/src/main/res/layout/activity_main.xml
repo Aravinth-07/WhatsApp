@@ -26,25 +26,45 @@
         tools:layout_editor_absoluteY="95dp">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/chats"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/chats" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/status" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/calls"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/calls" />
     </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:id="@+id/viewPager"/>
+
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_below="@+id/tablayout"
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:backgroundTint="@color/basecolor"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_myfab"
+        android:layout_marginRight="20dp"/>
 
 </RelativeLayout>
